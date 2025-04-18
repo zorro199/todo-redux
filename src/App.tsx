@@ -1,10 +1,8 @@
-// import { createTheme, ThemeProvider, Box, useTheme } from "@mui/material";
 import "./App.css";
 import Todolist from "./components/TodoList";
 import { useDispatch } from "react-redux";
 import { addTodo } from "./store/todos-slice";
-import React, { useEffect, useState } from "react";
-import useLocalStorage from "use-local-storage";
+import React, { useState } from "react";
 import Header from "./components/Header";
 
 const App: React.FC = () => {
