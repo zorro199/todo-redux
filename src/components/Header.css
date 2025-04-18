@@ -1,0 +1,8 @@
+.header {
+    margin: 1rem auto;
+    width: clamp(20rem, 10vw + 20rem, 42rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
